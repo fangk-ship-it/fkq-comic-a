@@ -1,0 +1,599 @@
+{\rtf1\ansi\ansicpg950\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red109\green109\blue109;\red236\green241\blue247;\red251\green0\blue7;
+\red0\green0\blue0;\red42\green42\blue42;\red107\green0\blue1;\red0\green0\blue255;\red24\green112\blue43;
+\red9\green60\blue148;\red19\green118\blue70;\red77\green80\blue85;\red111\green14\blue195;\red164\green69\blue11;
+\red14\green110\blue109;}
+{\*\expandedcolortbl;;\cssrgb\c50196\c50196\c50196;\cssrgb\c94118\c95686\c97647;\cssrgb\c100000\c0\c0;
+\cssrgb\c0\c0\c0;\cssrgb\c21961\c21961\c21961;\cssrgb\c50196\c0\c0;\cssrgb\c0\c0\c100000;\cssrgb\c9412\c50196\c21961;
+\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;\cssrgb\c37255\c38824\c40784;\cssrgb\c51765\c18824\c80784;\cssrgb\c70980\c34902\c3137;
+\cssrgb\c0\c50196\c50196;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE\cf4 \strokec4  html\cf2 \strokec2 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 html\cf0 \strokec5  \cf4 \strokec4 lang\cf6 \strokec6 =\cf8 \strokec8 "zh-TW"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 charset\cf6 \strokec6 =\cf8 \strokec8 "UTF-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 meta\cf0 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf8 \strokec8 "viewport"\cf0 \strokec5  \cf4 \strokec4 content\cf6 \strokec6 =\cf8 \strokec8 "width=device-width, initial-scale=1.0"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \strokec5 \uc0\u33274 \u28459 \u28790 \u33139  - \u28459 \u30059 \u39135 \u35676 \u36899 \u21205 \u29256 \cf6 \strokec6 </\cf7 \strokec7 title\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf0 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf8 \strokec8 "https://cdn.tailwindcss.com"\cf6 \strokec6 ></\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 link\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap"\cf0 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf8 \strokec8 "stylesheet"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf7 \strokec7 body\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 font-family:\cf0 \strokec5  \cf9 \strokec9 'Noto Sans TC'\cf0 \strokec5 , \cf10 \strokec10 sans-serif\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 background-color:\cf0 \strokec5  \cf10 \strokec10 #fcfcfc\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 margin:\cf0 \strokec5  \cf11 \strokec11 0\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 overflow-x:\cf0 \strokec5  \cf10 \strokec10 hidden\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 user-select:\cf0 \strokec5  \cf10 \strokec10 none\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf12 \strokec12 /* \uc0\u28459 \u30059 \u32654 \u23416  */\cf0 \cb1 \strokec5 \
+\cb3         \cf7 \strokec7 .comic-border\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 border:\cf0 \strokec5  \cf11 \strokec11 4px\cf0 \strokec5  \cf10 \strokec10 solid\cf0 \strokec5  \cf10 \strokec10 black\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 box-shadow:\cf0 \strokec5  \cf11 \strokec11 6px\cf0 \strokec5  \cf11 \strokec11 6px\cf0 \strokec5  \cf11 \strokec11 0px\cf0 \strokec5  \cf10 \strokec10 rgba(\cf11 \strokec11 0\cf0 \strokec5 ,\cf11 \strokec11 0\cf0 \strokec5 ,\cf11 \strokec11 0\cf0 \strokec5 ,\cf11 \strokec11 1\cf10 \strokec10 )\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf7 \strokec7 .comic-shadow\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 filter:\cf0 \strokec5  \cf10 \strokec10 drop-shadow(\cf11 \strokec11 4px\cf0 \strokec5  \cf11 \strokec11 4px\cf0 \strokec5  \cf11 \strokec11 0px\cf0 \strokec5  \cf10 \strokec10 black)\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf12 \strokec12 /* \uc0\u22580 \u26223 \u20999 \u25563 \u21205 \u30059  */\cf0 \cb1 \strokec5 \
+\cb3         \cf7 \strokec7 .scene\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 transition:\cf0 \strokec5  \cf10 \strokec10 opacity\cf0 \strokec5  \cf11 \strokec11 0.5s\cf0 \strokec5  \cf10 \strokec10 ease-in-out\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf12 \strokec12 /* \uc0\u25836 \u32882 \u35422  pop-up */\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 @keyframes\cf0 \strokec5  \cf10 \strokec10 pop-up\cf0 \strokec5  \{\cb1 \
+\cb3             \cf11 \strokec11 0%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 scale(\cf11 \strokec11 0\cf10 \strokec10 )\cf0 \strokec5  \cf10 \strokec10 rotate(\cf11 \strokec11 -15deg\cf10 \strokec10 )\cf0 \strokec5 ; \cf4 \strokec4 opacity:\cf0 \strokec5  \cf11 \strokec11 0\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf11 \strokec11 50%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 scale(\cf11 \strokec11 1.4\cf10 \strokec10 )\cf0 \strokec5  \cf10 \strokec10 rotate(\cf11 \strokec11 10deg\cf10 \strokec10 )\cf0 \strokec5 ; \cf4 \strokec4 opacity:\cf0 \strokec5  \cf11 \strokec11 1\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf11 \strokec11 100%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 scale(\cf11 \strokec11 1\cf10 \strokec10 )\cf0 \strokec5  \cf10 \strokec10 rotate(\cf11 \strokec11 0deg\cf10 \strokec10 )\cf0 \strokec5 ; \cf4 \strokec4 opacity:\cf0 \strokec5  \cf11 \strokec11 0\cf0 \strokec5 ; \}\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf7 \strokec7 .onomatopeia\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 position:\cf0 \strokec5  \cf10 \strokec10 absolute\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 font-weight:\cf0 \strokec5  \cf11 \strokec11 900\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 font-size:\cf0 \strokec5  \cf11 \strokec11 3rem\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 color:\cf0 \strokec5  \cf10 \strokec10 black\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 text-shadow:\cf0 \strokec5  \cf11 \strokec11 4px\cf0 \strokec5  \cf11 \strokec11 4px\cf0 \strokec5  \cf11 \strokec11 0\cf0 \strokec5  \cf10 \strokec10 white\cf0 \strokec5 , \cf11 \strokec11 -4px\cf0 \strokec5  \cf11 \strokec11 -4px\cf0 \strokec5  \cf11 \strokec11 0\cf0 \strokec5  \cf10 \strokec10 white\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 pointer-events:\cf0 \strokec5  \cf10 \strokec10 none\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 animation:\cf0 \strokec5  \cf10 \strokec10 pop-up\cf0 \strokec5  \cf11 \strokec11 0.8s\cf0 \strokec5  \cf10 \strokec10 forwards\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 z-index:\cf0 \strokec5  \cf11 \strokec11 100\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf12 \strokec12 /* \uc0\u38663 \u21205 \u30446 \u27161  */\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 @keyframes\cf0 \strokec5  \cf10 \strokec10 shake\cf0 \strokec5  \{\cb1 \
+\cb3             \cf11 \strokec11 0%\cf0 \strokec5 , \cf11 \strokec11 100%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 translate(\cf11 \strokec11 0\cf0 \strokec5 ,\cf11 \strokec11 0\cf10 \strokec10 )\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf11 \strokec11 25%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 translate(\cf11 \strokec11 2px\cf0 \strokec5 , \cf11 \strokec11 -2px\cf10 \strokec10 )\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf11 \strokec11 50%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 translate(\cf11 \strokec11 -2px\cf0 \strokec5 , \cf11 \strokec11 2px\cf10 \strokec10 )\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf11 \strokec11 75%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 translate(\cf11 \strokec11 2px\cf0 \strokec5 , \cf11 \strokec11 2px\cf10 \strokec10 )\cf0 \strokec5 ; \}\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .shake:hover\cf0 \strokec5  \{ \cf4 \strokec4 animation:\cf0 \strokec5  \cf10 \strokec10 shake\cf0 \strokec5  \cf11 \strokec11 0.2s\cf0 \strokec5  \cf10 \strokec10 infinite\cf0 \strokec5 ; \cf4 \strokec4 cursor:\cf0 \strokec5  \cf10 \strokec10 pointer\cf0 \strokec5 ; \}\cb1 \
+\
+\cb3         \cf12 \strokec12 /* \uc0\u26360 \u27331 \u27171 \u24335  */\cf0 \cb1 \strokec5 \
+\cb3         \cf7 \strokec7 .book\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 width:\cf0 \strokec5  \cf11 \strokec11 45px\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 height:\cf0 \strokec5  \cf11 \strokec11 190px\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 border:\cf0 \strokec5  \cf11 \strokec11 3px\cf0 \strokec5  \cf10 \strokec10 solid\cf0 \strokec5  \cf10 \strokec10 black\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 cursor:\cf0 \strokec5  \cf10 \strokec10 pointer\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 writing-mode:\cf0 \strokec5  \cf10 \strokec10 vertical-rl\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 display:\cf0 \strokec5  \cf10 \strokec10 flex\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 align-items:\cf0 \strokec5  \cf10 \strokec10 center\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 justify-content:\cf0 \strokec5  \cf10 \strokec10 center\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 font-weight:\cf0 \strokec5  \cf11 \strokec11 900\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 transition:\cf0 \strokec5  \cf10 \strokec10 all\cf0 \strokec5  \cf11 \strokec11 0.3s\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 background:\cf0 \strokec5  \cf10 \strokec10 white\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 position:\cf0 \strokec5  \cf10 \strokec10 relative\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .book-locked\cf0 \strokec5  \{ \cf4 \strokec4 filter:\cf0 \strokec5  \cf10 \strokec10 grayscale(\cf11 \strokec11 1\cf10 \strokec10 )\cf0 \strokec5 ; \cf4 \strokec4 opacity:\cf0 \strokec5  \cf11 \strokec11 0.3\cf0 \strokec5 ; \}\cb1 \
+\cb3         \cf7 \strokec7 .book:hover:not\cf0 \strokec5 (\cf7 \strokec7 .book-locked\cf0 \strokec5 ) \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 translateY(\cf11 \strokec11 -10px\cf10 \strokec10 )\cf0 \strokec5  \cf10 \strokec10 rotate(\cf11 \strokec11 -2deg\cf10 \strokec10 )\cf0 \strokec5 ; \cf4 \strokec4 box-shadow:\cf0 \strokec5  \cf11 \strokec11 8px\cf0 \strokec5  \cf11 \strokec11 8px\cf0 \strokec5  \cf11 \strokec11 0\cf0 \strokec5  \cf10 \strokec10 rgba(\cf11 \strokec11 0\cf0 \strokec5 ,\cf11 \strokec11 0\cf0 \strokec5 ,\cf11 \strokec11 0\cf0 \strokec5 ,\cf11 \strokec11 0.2\cf10 \strokec10 )\cf0 \strokec5 ; \}\cb1 \
+\
+\cb3         \cf12 \strokec12 /* \uc0\u37707 \u29200 \u21205 \u30059  */\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 @keyframes\cf0 \strokec5  \cf10 \strokec10 steam\cf0 \strokec5  \{\cb1 \
+\cb3             \cf11 \strokec11 0%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 translateY(\cf11 \strokec11 0\cf10 \strokec10 )\cf0 \strokec5  \cf10 \strokec10 scale(\cf11 \strokec11 1\cf10 \strokec10 )\cf0 \strokec5 ; \cf4 \strokec4 opacity:\cf0 \strokec5  \cf11 \strokec11 0\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf11 \strokec11 50%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 translateY(\cf11 \strokec11 -20px\cf10 \strokec10 )\cf0 \strokec5  \cf10 \strokec10 scale(\cf11 \strokec11 1.2\cf10 \strokec10 )\cf0 \strokec5 ; \cf4 \strokec4 opacity:\cf0 \strokec5  \cf11 \strokec11 0.5\cf0 \strokec5 ; \}\cb1 \
+\cb3             \cf11 \strokec11 100%\cf0 \strokec5  \{ \cf4 \strokec4 transform:\cf0 \strokec5  \cf10 \strokec10 translateY(\cf11 \strokec11 -40px\cf10 \strokec10 )\cf0 \strokec5  \cf10 \strokec10 scale(\cf11 \strokec11 1.5\cf10 \strokec10 )\cf0 \strokec5 ; \cf4 \strokec4 opacity:\cf0 \strokec5  \cf11 \strokec11 0\cf0 \strokec5 ; \}\cb1 \
+\cb3         \}\cb1 \
+\cb3         \cf7 \strokec7 .steam-particle\cf0 \strokec5  \{\cb1 \
+\cb3             \cf4 \strokec4 position:\cf0 \strokec5  \cf10 \strokec10 absolute\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 width:\cf0 \strokec5  \cf11 \strokec11 30px\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 height:\cf0 \strokec5  \cf11 \strokec11 30px\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 background:\cf0 \strokec5  \cf10 \strokec10 rgba(\cf11 \strokec11 200\cf0 \strokec5 ,\cf11 \strokec11 200\cf0 \strokec5 ,\cf11 \strokec11 200\cf0 \strokec5 ,\cf11 \strokec11 0.4\cf10 \strokec10 )\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 border-radius:\cf0 \strokec5  \cf11 \strokec11 50%\cf0 \strokec5 ;\cb1 \
+\cb3             \cf4 \strokec4 animation:\cf0 \strokec5  \cf10 \strokec10 steam\cf0 \strokec5  \cf11 \strokec11 2s\cf0 \strokec5  \cf10 \strokec10 infinite\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf12 \strokec12 /* \uc0\u31859 \u31881 \u27873 \u27700 \u29305 \u25928  */\cf0 \cb1 \strokec5 \
+\cb3         \cf7 \strokec7 .rice-noodle\cf0 \strokec5  \{ \cf4 \strokec4 transition:\cf0 \strokec5  \cf10 \strokec10 all\cf0 \strokec5  \cf11 \strokec11 2s\cf0 \strokec5  \cf10 \strokec10 ease-in-out\cf0 \strokec5 ; \}\cb1 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 style\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 head\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf7 \strokec7 body\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3     \cf12 \strokec12 <!-- \uc0\u38914 \u37096 \u23566 \u33322  -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 nav\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "fixed top-0 left-0 w-full p-4 flex justify-between items-center z-50 bg-white border-b-4 border-black"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-black text-2xl italic flex items-center gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 span\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-black text-white px-2"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u33274 \u28459 \cf6 \strokec6 </\cf7 \strokec7 span\cf6 \strokec6 >\cf0 \strokec5 \uc0\u28790 \u33139 \cb1 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex gap-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "changeScene('intro')"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold border-2 border-black px-4 py-1 hover:bg-gray-100"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u25925 \u20107 \u36984 \u21934 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "changeScene('shelf')"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-bold bg-black text-white px-4 py-1 hover:bg-gray-800"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u34255 \u26360 \u38307 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 nav\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf12 \strokec12 <!-- \uc0\u22580 \u26223  A\u65306 Webtoon \u25458 \u21205 \u23566 \u24341  -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "intro"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "scene pt-24 min-h-screen bg-stone-50"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-2xl mx-auto p-4 flex flex-col gap-8"\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "intro-container"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 <!-- \uc0\u30001  JS \u21205 \u24907 \u29983 \u25104 \u28459 \u30059 \u26684  -->\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf12 \strokec12 <!-- \uc0\u22580 \u26223  B\u65306 \u20114 \u21205 \u27169 \u25836 \u24282 \u25151  -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "kitchen"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "scene hidden fixed inset-0 bg-white z-40 flex items-center justify-center"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "relative comic-border w-[900px] h-[650px] bg-white overflow-hidden shadow-2xl"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 <!-- \uc0\u30059 \u24067 \u23652  -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 canvas\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "mainCanvas"\cf0 \strokec5  \cf4 \strokec4 width\cf6 \strokec6 =\cf8 \strokec8 "900"\cf0 \strokec5  \cf4 \strokec4 height\cf6 \strokec6 =\cf8 \strokec8 "650"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute inset-0"\cf6 \strokec6 ></\cf7 \strokec7 canvas\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf12 \strokec12 <!-- \uc0\u20114 \u21205 \u25991 \u23383 \u25552 \u31034  -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute top-10 left-10 z-10"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "recipe-step-box"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-black text-white px-6 py-2 comic-shadow font-black text-xl"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \uc0\u27493 \u39519 \u65306 \u21021 \u22987 \u21270 \u20013 ...\cb1 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "recipe-hint"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mt-2 bg-white border-2 border-black px-4 py-1 font-bold text-sm italic"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \uc0\u25552 \u31034 \u25991 \u23383 \cb1 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 <!-- \uc0\u21205 \u24907 \u29305 \u25928 \u23481 \u22120  -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "fx-layer"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute inset-0 pointer-events-none"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 <!-- \uc0\u19979 \u26041 \u25511 \u21046 \u21312  -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute bottom-6 left-6 right-6 flex justify-between items-end"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "interactive-tools"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex gap-4"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf12 \strokec12 <!-- \uc0\u20381 \u26009 \u29702 \u21205 \u24907 \u25554 \u20837 \u24037 \u20855 \u25353 \u37397  -->\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex flex-col items-end gap-2"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "progress-bar-container"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-48 h-6 border-4 border-black bg-gray-200 hidden"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "progress-bar"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "h-full bg-yellow-400 w-0 transition-all"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "finish-btn"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden bg-red-600 text-white border-4 border-black px-8 py-2 font-black text-xl hover:bg-red-700"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u25910 \u37636 \u36914 \u26360 \u27331 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf12 \strokec12 <!-- \uc0\u22580 \u26223  C\u65306 \u34395 \u25836 \u26360 \u27331  -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "shelf"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "scene hidden pt-24 min-h-screen bg-amber-50 px-10"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "max-w-6xl mx-auto"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 h1\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-4xl font-black mb-10 text-center italic border-b-4 border-black pb-4"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u25105 \u30340 \u33274 \u28459 \u25910 \u34255 \u26360 \u26550 \cf6 \strokec6 </\cf7 \strokec7 h1\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "shelf-grid"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 <!-- \uc0\u30001  JS \u21205 \u24907 \u29983 \u25104 \u26360 \u26412  -->\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf12 \strokec12 <!-- \uc0\u28459 \u30059 \u35443 \u24773  Modal -->\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modal"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "hidden fixed inset-0 bg-black/90 z-[100] flex items-center justify-center p-6"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "bg-white comic-border max-w-4xl w-full p-10 relative flex gap-10"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 button\cf0 \strokec5  \cf4 \strokec4 onclick\cf6 \strokec6 =\cf8 \strokec8 "toggleModal(false)"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "absolute -top-4 -right-4 bg-white border-4 border-black w-12 h-12 font-black text-2xl"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u10005 \cf6 \strokec6 </\cf7 \strokec7 button\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modal-cover"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-1/3 h-[400px] border-4 border-black flex items-center justify-center text-7xl shadow-inner bg-gray-100"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "w-2/3"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 h2\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modal-title"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-4xl font-black mb-2"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u20316 \u21697 \u27161 \u38988 \cf6 \strokec6 </\cf7 \strokec7 h2\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modal-author"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-red-600 font-bold text-xl mb-6"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u20316 \u32773 \u21517 \u31281 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 p\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modal-desc"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "text-lg leading-relaxed mb-8 italic text-gray-700"\cf6 \strokec6 ></\cf7 \strokec7 p\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "mb-8"\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 h4\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "font-black mb-2 text-sm"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u24050 \u35299 \u37782 \u39135 \u35676 \u22294 \u37969 \u65306 \cf6 \strokec6 </\cf7 \strokec7 h4\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf7 \strokec7 div\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modal-foods"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "flex gap-2"\cf6 \strokec6 ></\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf7 \strokec7 a\cf0 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf8 \strokec8 "modal-link"\cf0 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf8 \strokec8 "#"\cf0 \strokec5  \cf4 \strokec4 target\cf6 \strokec6 =\cf8 \strokec8 "_blank"\cf0 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf8 \strokec8 "block w-full text-center bg-black text-white py-4 font-black text-xl hover:bg-gray-800 transition"\cf6 \strokec6 >\cf0 \strokec5 \uc0\u21069 \u24448 \u35264 \u30475 \u23436 \u25972 \u20316 \u21697 \cf6 \strokec6 </\cf7 \strokec7 a\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 div\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cb3         \cf12 \strokec12 // --- \uc0\u20840 \u22495 \u36039 \u26009 \u24235  ---\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 const\cf0 \strokec5  comicData = [\cb1 \
+\cb3             \{\cb1 \
+\cb3                 id: \cf9 \strokec9 'shou-lu-cai'\cf0 \strokec5 , title: \cf9 \strokec9 '\uc0\u25163 \u36335 \u33756 '\cf0 \strokec5 , author: \cf9 \strokec9 '\uc0\u38463 \u26106 \u24107 '\cf0 \strokec5 , color: \cf9 \strokec9 '#ef4444'\cf0 \strokec5 , \cb1 \
+\cb3                 desc: \cf9 \strokec9 '\uc0\u20659 \u25215 \u21488 \u28771 \u32317 \u33302 \u24107 \u30340 \u31934 \u31070 \u65292 \u25551 \u36848 \u27599 \u19968 \u36947 \u33756 \u32972 \u24460 \u38577 \u34255 \u30340 \u23478 \u24237 \u35352 \u25014 \u33287 \u22303 \u22320 \u28331 \u24773 \u12290 '\cf0 \strokec5 ,\cb1 \
+\cb3                 link: \cf9 \strokec9 'https://unews.nccu.edu.tw/unews/comic-local-cuisine/'\cf0 \strokec5 ,\cb1 \
+\cb3                 foods: [\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'gzr'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u29916 \u20180 \u32905 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55356 \u57202 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'gua-zai-rou'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'cmf'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u28818 \u31859 \u31881 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55356 \u57180 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'chao-mi-fen'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'zjf'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u35948 \u33139 \u39151 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55356 \u57178 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'zhu-jiao-fan'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \}\cb1 \
+\cb3                 ]\cb1 \
+\cb3             \},\cb1 \
+\cb3             \{\cb1 \
+\cb3                 id: \cf9 \strokec9 'happiness'\cf0 \strokec5 , title: \cf9 \strokec9 '\uc0\u24184 \u31119 \u35519 \u21619 \u26009 '\cf0 \strokec5 , author: \cf9 \strokec9 '\uc0\u38446 \u20809 \u27665 '\cf0 \strokec5 , color: \cf9 \strokec9 '#3b82f6'\cf0 \strokec5 ,\cb1 \
+\cb3                 desc: \cf9 \strokec9 '\uc0\u24179 \u20961 \u30340 \u35519 \u21619 \u26009 \u65292 \u37312 \u36896 \u20986 \u19981 \u24179 \u20961 \u30340 \u20154 \u29983 \u28363 \u21619 \u12290 \u22312 \u37292 \u27833 \u33287 \u33590 \u33865 \u34507 \u30340 \u39321 \u27683 \u20013 \u65292 \u25214 \u22238 \u26368 \u32020 \u31929 \u30340 \u24184 \u31119 \u12290 '\cf0 \strokec5 ,\cb1 \
+\cb3                 link: \cf9 \strokec9 'https://www.creative-comic.tw/'\cf0 \strokec5 ,\cb1 \
+\cb3                 foods: [\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'cyd'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u33590 \u33865 \u34507 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55358 \u56666 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'cha-ye-dan'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'jy'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u31192 \u35069 \u37292 \u27833 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55356 \u57206 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'jiang-you'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \}\cb1 \
+\cb3                 ]\cb1 \
+\cb3             \},\cb1 \
+\cb3             \{\cb1 \
+\cb3                 id: \cf9 \strokec9 'endemic'\cf0 \strokec5 , title: \cf9 \strokec9 '\uc0\u21488 \u28771 \u29305 \u26377 \u31278 '\cf0 \strokec5 , author: \cf9 \strokec9 '\uc0\u21508 \u23478 \u21512 \u33879 '\cf0 \strokec5 , color: \cf9 \strokec9 '#8b5cf6'\cf0 \strokec5 ,\cb1 \
+\cb3                 desc: \cf9 \strokec9 '\uc0\u23559 \u21488 \u28771 \u29983 \u24907 \u29305 \u33394 \u36681 \u21270 \u28858 \u28459 \u30059 \u25925 \u20107 \u65292 \u36002 \u20024 \u33287 \u27700 \u31876 \u20195 \u34920 \u20102 \u22303 \u22320 \u33287 \u24037 \u34269 \u30340 \u36074 \u27192 \u32080 \u21512 \u12290 '\cf0 \strokec5 ,\cb1 \
+\cb3                 link: \cf9 \strokec9 'https://www.creative-comic.tw/'\cf0 \strokec5 ,\cb1 \
+\cb3                 foods: [\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'gw'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u36002 \u20024 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55358 \u56774 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'gong-wan'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'sb'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u27700 \u31876 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55358 \u56675 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'shui-ban'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \}\cb1 \
+\cb3                 ]\cb1 \
+\cb3             \},\cb1 \
+\cb3             \{\cb1 \
+\cb3                 id: \cf9 \strokec9 'tea-trace'\cf0 \strokec5 , title: \cf9 \strokec9 '\uc0\u30064 \u20154 \u33590 \u36321 '\cf0 \strokec5 , author: \cf9 \strokec9 '\uc0\u24373 \u23395 \u38597 '\cf0 \strokec5 , color: \cf9 \strokec9 '#10b981'\cf0 \strokec5 ,\cb1 \
+\cb3                 desc: \cf9 \strokec9 '\uc0\u21313 \u20061 \u19990 \u32000 \u30340 \u22823 \u31291 \u22485 \u65292 \u38518 \u24503 \u33287 \u26446 \u26149 \u29983 \u32879 \u25163 \u23559 \u21488 \u28771 \u33590 \u25512 \u21521 \u22283 \u38555 \u30340 \u29105 \u34880 \u36031 \u26131 \u20659 \u22855 \u12290 '\cf0 \strokec5 ,\cb1 \
+\cb3                 link: \cf9 \strokec9 'https://www.creative-comic.tw/'\cf0 \strokec5 ,\cb1 \
+\cb3                 foods: [\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'wlc'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u28879 \u40845 \u33590 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55356 \u57205 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'wu-long-cha'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'sgdg'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u33521 \u24335 \u27700 \u26524 \u34507 \u31957 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55356 \u57200 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'fruit-cake'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'zjmx'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u35948 \u33139 \u40629 \u32218 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55358 \u56674 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'zhu-jiao-mian-xian'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \}\cb1 \
+\cb3                 ]\cb1 \
+\cb3             \},\cb1 \
+\cb3             \{\cb1 \
+\cb3                 id: \cf9 \strokec9 'meiwu'\cf0 \strokec5 , title: \cf9 \strokec9 '\uc0\u21451 \u32362 \u30340 \u23567 \u26757 \u23627 \u35352 \u20107 \u31807 '\cf0 \strokec5 , author: \cf9 \strokec9 '\uc0\u28165 \u27700 '\cf0 \strokec5 , color: \cf9 \strokec9 '#f59e0b'\cf0 \strokec5 ,\cb1 \
+\cb3                 desc: \cf9 \strokec9 '\uc0\u26157 \u21644 \u26178 \u20195 \u30340 \u22823 \u31291 \u22485 \u65292 \u23569 \u22899 \u22312 \u26757 \u23627 \u25975 \u26053 \u39208 \u20013 \u65292 \u36879 \u36942 \u32654 \u39135 \u36899 \u32080 \u26085 \u27835 \u26178 \u26399 \u30340 \u31934 \u32251 \u29983 \u27963 \u12290 '\cf0 \strokec5 ,\cb1 \
+\cb3                 link: \cf9 \strokec9 'https://www.creative-comic.tw/'\cf0 \strokec5 ,\cb1 \
+\cb3                 foods: [\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'ay'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u24859 \u29577 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55356 \u57163 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'ai-yu'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'xc'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u20185 \u33609 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55356 \u57198 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'xian-cao'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ id: \cf9 \strokec9 'hgz'\cf0 \strokec5 , name: \cf9 \strokec9 '\uc0\u21644 \u26524 \u23376 '\cf0 \strokec5 , icon: \cf9 \strokec9 '\uc0\u55356 \u57185 '\cf0 \strokec5 , recipeId: \cf9 \strokec9 'wa-gashi'\cf0 \strokec5 , collected: \cf13 \strokec13 false\cf0 \strokec5  \}\cb1 \
+\cb3                 ]\cb1 \
+\cb3             \}\cb1 \
+\cb3         ];\cb1 \
+\
+\cb3         \cf13 \strokec13 let\cf0 \strokec5  currentComic = \cf13 \strokec13 null\cf0 \strokec5 ;\cb1 \
+\cb3         \cf13 \strokec13 let\cf0 \strokec5  currentFood = \cf13 \strokec13 null\cf0 \strokec5 ;\cb1 \
+\cb3         \cf13 \strokec13 let\cf0 \strokec5  recipeState = \{ step: \cf14 \strokec14 0\cf0 \strokec5 , count: \cf14 \strokec14 0\cf0 \strokec5 , timer: \cf13 \strokec13 null\cf0 \strokec5  \};\cb1 \
+\
+\cb3         \cf12 \strokec12 // --- \uc0\u22580 \u26223 \u31649 \u29702  ---\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  changeScene(target) \{\cb1 \
+\cb3             document.querySelectorAll(\cf9 \strokec9 '.scene'\cf0 \strokec5 ).forEach(s => s.classList.add(\cf9 \strokec9 'hidden'\cf0 \strokec5 ));\cb1 \
+\cb3             document.getElementById(target).classList.remove(\cf9 \strokec9 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3             \cf13 \strokec13 if\cf0 \strokec5 (target === \cf9 \strokec9 'shelf'\cf0 \strokec5 ) renderShelf();\cb1 \
+\cb3             \cf13 \strokec13 if\cf0 \strokec5 (target === \cf9 \strokec9 'intro'\cf0 \strokec5 ) renderIntro();\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  renderIntro() \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  container = document.getElementById(\cf9 \strokec9 'intro-container'\cf0 \strokec5 );\cb1 \
+\cb3             container.innerHTML = \cf9 \strokec9 ''\cf0 \strokec5 ;\cb1 \
+\cb3             comicData.forEach(comic => \{\cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  card = document.createElement(\cf9 \strokec9 'div'\cf0 \strokec5 );\cb1 \
+\cb3                 card.className = \cf9 \strokec9 'comic-border bg-white p-6 relative overflow-hidden'\cf0 \strokec5 ;\cb1 \
+\cb3                 card.innerHTML = \cf9 \strokec9 `\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf9 \cb3 \strokec9                     <div class="flex justify-between items-center mb-4">\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                         <h2 class="text-2xl font-black italic border-l-8 pl-3" style="border-color: \cf0 \strokec5 $\{comic.color\}\cf9 \strokec9 ">\cf0 \strokec5 $\{comic.title\}\cf9 \strokec9 </h2>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                         <span class="text-xs font-bold text-gray-400">by \cf0 \strokec5 $\{comic.author\}\cf9 \strokec9 </span>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                     </div>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                     <div class="grid grid-cols-3 gap-3">\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                         \cf0 \strokec5 $\{comic.foods.map(f => \cf9 \strokec9 `\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                             <div onclick="startCooking('\cf0 \strokec5 $\{comic.id\}\cf9 \strokec9 ', '\cf0 \strokec5 $\{f.id\}\cf9 \strokec9 ')" class="shake border-2 border-black aspect-square flex flex-col items-center justify-center p-2 hover:bg-yellow-50 transition">\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                                 <span class="text-3xl mb-1">\cf0 \strokec5 $\{f.icon\}\cf9 \strokec9 </span>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                                 <span class="text-[10px] font-black">\cf0 \strokec5 $\{f.name\}\cf9 \strokec9 </span>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                             </div>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                         `\cf0 \strokec5 ).join(\cf9 \strokec9 ''\cf0 \strokec5 )\}\cb1 \
+\cf9 \cb3 \strokec9                     </div>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                 `\cf0 \strokec5 ;\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3                 container.appendChild(card);\cb1 \
+\cb3             \});\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  renderShelf() \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  grid = document.getElementById(\cf9 \strokec9 'shelf-grid'\cf0 \strokec5 );\cb1 \
+\cb3             grid.innerHTML = \cf9 \strokec9 ''\cf0 \strokec5 ;\cb1 \
+\cb3             comicData.forEach(comic => \{\cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  isAllCollected = comic.foods.every(f => f.collected);\cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  collectedCount = comic.foods.filter(f => f.collected).length;\cb1 \
+\cb3                 \cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  col = document.createElement(\cf9 \strokec9 'div'\cf0 \strokec5 );\cb1 \
+\cb3                 col.className = \cf9 \strokec9 'flex flex-col items-center gap-4'\cf0 \strokec5 ;\cb1 \
+\cb3                 col.innerHTML = \cf9 \strokec9 `\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf9 \cb3 \strokec9                     <div onclick="openModal('\cf0 \strokec5 $\{comic.id\}\cf9 \strokec9 ')" class="book \cf0 \strokec5 $\{collectedCount > \cf14 \strokec14 0\cf0 \strokec5  ? \cf9 \strokec9 ''\cf0 \strokec5  : \cf9 \strokec9 'book-locked'\cf0 \strokec5 \}\cf9 \strokec9 " style="background-color: \cf0 \strokec5 $\{comic.color\}\cf9 \strokec9 ">\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                         \cf0 \strokec5 $\{comic.title\}\cb1 \
+\cf9 \cb3 \strokec9                         \cf0 \strokec5 $\{isAllCollected ? \cf9 \strokec9 '<div class="absolute -top-3 -right-3 text-2xl">\uc0\u55356 \u57286 </div>'\cf0 \strokec5  : \cf9 \strokec9 ''\cf0 \strokec5 \}\cb1 \
+\cf9 \cb3 \strokec9                     </div>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                     <div class="h-4 w-full bg-[#5d4037] border-2 border-black rounded-full shadow-inner"></div>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                     <div class="text-[10px] font-bold text-stone-500">\cf0 \strokec5 $\{collectedCount\}\cf9 \strokec9 /\cf0 \strokec5 $\{comic.foods.length\}\cf9 \strokec9  \uc0\u26009 \u29702 \u25910 \u38598 </div>\cf0 \cb1 \strokec5 \
+\cf9 \cb3 \strokec9                 `\cf0 \strokec5 ;\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb3                 grid.appendChild(col);\cb1 \
+\cb3             \});\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf12 \strokec12 // --- \uc0\u20114 \u21205 \u27169 \u25836 \u37007 \u36655  ---\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 const\cf0 \strokec5  canvas = document.getElementById(\cf9 \strokec9 'mainCanvas'\cf0 \strokec5 );\cb1 \
+\cb3         \cf13 \strokec13 const\cf0 \strokec5  ctx = canvas.getContext(\cf9 \strokec9 '2d'\cf0 \strokec5 );\cb1 \
+\cb3         \cf13 \strokec13 let\cf0 \strokec5  isDrawing = \cf13 \strokec13 false\cf0 \strokec5 ;\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  startCooking(comicId, foodId) \{\cb1 \
+\cb3             currentComic = comicData.find(c => c.id === comicId);\cb1 \
+\cb3             currentFood = currentComic.foods.find(f => f.id === foodId);\cb1 \
+\cb3             \cb1 \
+\cb3             recipeState = \{ step: \cf14 \strokec14 0\cf0 \strokec5 , count: \cf14 \strokec14 0\cf0 \strokec5 , timer: \cf13 \strokec13 null\cf0 \strokec5  \};\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'finish-btn'\cf0 \strokec5 ).classList.add(\cf9 \strokec9 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'progress-bar-container'\cf0 \strokec5 ).classList.add(\cf9 \strokec9 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3             \cb1 \
+\cb3             changeScene(\cf9 \strokec9 'kitchen'\cf0 \strokec5 );\cb1 \
+\cb3             runRecipeStep();\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  runRecipeStep() \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  steps = getRecipeSteps(currentFood.recipeId);\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  current = steps[recipeState.step];\cb1 \
+\cb3             \cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'recipe-step-box'\cf0 \strokec5 ).innerText = \cf9 \strokec9 `\uc0\u27493 \u39519  \cf0 \strokec5 $\{recipeState.step + \cf14 \strokec14 1\cf0 \strokec5 \}\cf9 \strokec9 \uc0\u65306 \cf0 \strokec5 $\{current.title\}\cf9 \strokec9 `\cf0 \strokec5 ;\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'recipe-hint'\cf0 \strokec5 ).innerText = current.hint;\cb1 \
+\cb3             \cb1 \
+\cb3             setupTools(current.tools);\cb1 \
+\cb3             drawKitchenBase();\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  getRecipeSteps(id) \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  recipes = \{\cb1 \
+\cb3                 \cf9 \strokec9 'gua-zai-rou'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u21057 \u30862 \u37292 \u29916 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u29992 \u28369 \u40736 \u22312 \u37292 \u29916 \u19978 \u37325 \u35079 \u21123 \u32218  10 \u27425 \u36914 \u34892 \u21057 \u30862 \u21205 \u20316 \u65281 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'knife'\cf0 \strokec5 ], action: \cf9 \strokec9 'slice'\cf0 \strokec5 , target: \cf14 \strokec14 10\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u28151 \u21512 \u32094 \u32905 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u25898 \u25292 \u26834  5 \u27425 \u65292 \u23559 \u37292 \u29916 \u27700 \u33287 \u32094 \u32905 \u20805 \u20998 \u28151 \u21243 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'mixer'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 5\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u22823 \u28779 \u33976 \u29038 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u28779 \u29200 \u38283 \u21855 \u24375 \u28779 \u65292 \u31561 \u24453 \u33976 \u29087 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'fire'\cf0 \strokec5 ], action: \cf9 \strokec9 'wait'\cf0 \strokec5 , target: \cf14 \strokec14 3000\cf0 \strokec5  \}\cb1 \
+\cb3                 ],\cb1 \
+\cb3                 \cf9 \strokec9 'chao-mi-fen'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u28024 \u27873 \u31859 \u31881 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u27700 \u30406 \u38283 \u22987 \u27873 \u27700 \u65292 \u38656 \u31561 \u24453  6 \u31186 \u35731 \u31859 \u31881 \u21560 \u27700 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'water'\cf0 \strokec5 ], action: \cf9 \strokec9 'timer'\cf0 \strokec5 , target: \cf14 \strokec14 6000\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u29190 \u39321 \u37197 \u26009 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u28369 \u21205 \u37855 \u23376 \u32763 \u28818 \u32005 \u34085 \u38957 \u33287 \u34662 \u31859  8 \u27425 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'spatula'\cf0 \strokec5 ], action: \cf9 \strokec9 'slice'\cf0 \strokec5 , target: \cf14 \strokec14 8\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u29148 \u29038 \u25910 \u27713 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u37707 \u33995 \u33995 \u19978 \u65292 \u38748 \u32622 \u29148 \u29038 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'lid'\cf0 \strokec5 ], action: \cf9 \strokec9 'wait'\cf0 \strokec5 , target: \cf14 \strokec14 2000\cf0 \strokec5  \}\cb1 \
+\cb3                 ],\cb1 \
+\cb3                 \cf9 \strokec9 'zhu-jiao-fan'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u36305 \u27963 \u27700 \u21435 \u33125 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u27700 \u40845 \u38957 \u28165 \u27927 \u35948 \u33139  5 \u27425 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'water'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 5\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u28818 \u39321 \u31958 \u33394 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u31958 \u32592 \u21152 \u20837 \u30722 \u31958 \u65292 \u30452 \u21040 \u38991 \u33394 \u35722 \u28145 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'sugar'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 6\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u24930 \u28779 \u28407 \u35069 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u38263 \u25353 \u29200 \u28779 \u25353 \u37397 \u36914 \u34892 \u24930 \u29129 \u65292 \u31561 \u24453 \u37292 \u27713 \u28611 \u31264 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'fire'\cf0 \strokec5 ], action: \cf9 \strokec9 'hold'\cf0 \strokec5 , target: \cf14 \strokec14 3000\cf0 \strokec5  \}\cb1 \
+\cb3                 ],\cb1 \
+\cb3                 \cf9 \strokec9 'cha-ye-dan'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u36629 \u25970 \u34507 \u27580 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u38622 \u34507  4 \u27425 \u35731 \u34507 \u27580 \u29986 \u29983 \u35010 \u32011 \u65288 \u20837 \u21619 \u38364 \u37749 \u65289 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'spoon'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 4\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u25237 \u20837 \u33590 \u21253 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u23559 \u33590 \u33865 \u21253 \u33287 \u39321 \u26009 \u25918 \u20837 \u37707 \u20839 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'tea-bag'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 1\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u38263 \u26178 \u38291 \u28024 \u27873 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u28024 \u27873 \u65292 \u31561 \u24453 \u20837 \u21619 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'wait-timer'\cf0 \strokec5 ], action: \cf9 \strokec9 'wait'\cf0 \strokec5 , target: \cf14 \strokec14 2000\cf0 \strokec5  \}\cb1 \
+\cb3                 ],\cb1 \
+\cb3                 \cf9 \strokec9 'jiang-you'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u40643 \u35910 \u35069 \u40628 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u40643 \u35910 \u22534 \u36914 \u34892 \u32763 \u21205  8 \u27425 \u20419 \u36914 \u30332 \u37237 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'hand'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 8\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u20837 \u29973 \u23553 \u23384 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u29973 \u33995 \u36914 \u34892 \u23494 \u23553 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'lid'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 1\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u26085 \u26348 \u37312 \u36896 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u22826 \u38525 \u65292 \u35731 \u26178 \u38291 \u37278 \u37312 \u39080 \u21619 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'sun'\cf0 \strokec5 ], action: \cf9 \strokec9 'wait'\cf0 \strokec5 , target: \cf14 \strokec14 2000\cf0 \strokec5  \}\cb1 \
+\cb3                 ],\cb1 \
+\cb3                 \cf9 \strokec9 'gong-wan'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u25637 \u25171 \u32905 \u27877 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u30707 \u33276 \u36899 \u32396 \u25637 \u25171  12 \u27425 \u22686 \u21152 \u24392 \u24615 \u65281 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'hammer'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 12\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u25163 \u25824 \u20024 \u23376 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u28369 \u21205 \u28369 \u40736 \u27169 \u25836 \u34382 \u21475 \u25824 \u20986 \u22291 \u24418 \u20024 \u23376  5 \u38982 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'hand'\cf0 \strokec5 ], action: \cf9 \strokec9 'slice'\cf0 \strokec5 , target: \cf14 \strokec14 5\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u28331 \u27700 \u23450 \u22411 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u20837 \u37707 \u65292 \u20445 \u25345 \u27700 \u28331 \u23450 \u22411 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'fire'\cf0 \strokec5 ], action: \cf9 \strokec9 'wait'\cf0 \strokec5 , target: \cf14 \strokec14 2000\cf0 \strokec5  \}\cb1 \
+\cb3                 ],\cb1 \
+\cb3                 \cf9 \strokec9 'shui-ban'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u30952 \u35069 \u31859 \u28479 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u26059 \u36681 \u30707 \u30952 \u65288 \u28369 \u21205 \u22291 \u22280 \u65289 \u23436 \u25104 \u31859 \u28479 \u30952 \u35069 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'stone-mill'\cf0 \strokec5 ], action: \cf9 \strokec9 'circle'\cf0 \strokec5 , target: \cf14 \strokec14 5\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u28818 \u39321 \u40569 \u26009 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u33756 \u33071 \u33287 \u32905 \u26411 \u28818 \u39321 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'spatula'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 5\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u22823 \u28779 \u28810 \u33976 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u33976 \u31840 \u65292 \u31561 \u24453 \u27700 \u31876 \u29087 \u36879 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'steamer'\cf0 \strokec5 ], action: \cf9 \strokec9 'wait'\cf0 \strokec5 , target: \cf14 \strokec14 3000\cf0 \strokec5  \}\cb1 \
+\cb3                 ],\cb1 \
+\cb3                 \cf9 \strokec9 'wu-long-cha'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u33590 \u33865 \u33806 \u20939 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u31481 \u31721 \u25238 \u21205 \u33590 \u33865 \u65292 \u22343 \u21243 \u25955 \u22833 \u27700 \u20998 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'sieve'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 6\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u25163 \u24863 \u28010 \u33729 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u28369 \u21205 \u28369 \u40736 \u26059 \u36681 \u33590 \u33865 \u65292 \u35480 \u30332 \u39321 \u27683 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'hand'\cf0 \strokec5 ], action: \cf9 \strokec9 'slice'\cf0 \strokec5 , target: \cf14 \strokec14 8\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u28331 \u28779 \u28888 \u28953 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u33590 \u28953 \u31840 \u65292 \u37782 \u20303 \u22238 \u29976 \u39321 \u27683 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'fire'\cf0 \strokec5 ], action: \cf9 \strokec9 'wait'\cf0 \strokec5 , target: \cf14 \strokec14 2000\cf0 \strokec5  \}\cb1 \
+\cb3                 ],\cb1 \
+\cb3                 \cf9 \strokec9 'fruit-cake'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u31958 \u28460 \u27700 \u26524 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u37202 \u29942 \u20498 \u20837 \u30333 \u34349 \u22320 \u28024 \u27873 \u26524 \u20094 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'wine'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 4\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u25171 \u30332 \u22902 \u27833 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u28369 \u21205 \u25898 \u25292 \u30452 \u21040 \u22902 \u27833 \u21576 \u29694 \u34028 \u39686 \u29376 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'whisk'\cf0 \strokec5 ], action: \cf9 \strokec9 'slice'\cf0 \strokec5 , target: \cf14 \strokec14 10\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u20302 \u28331 \u28888 \u28900 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u28900 \u31665 \u65292 \u32784 \u24515 \u31561 \u24453 \u34507 \u31957 \u20986 \u29200 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'oven'\cf0 \strokec5 ], action: \cf9 \strokec9 'wait'\cf0 \strokec5 , target: \cf14 \strokec14 3000\cf0 \strokec5  \}\cb1 \
+\cb3                 ],\cb1 \
+\cb3                 \cf9 \strokec9 'ai-yu'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u25163 \u24037 \u25619 \u27927 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u23559 \u24859 \u29577 \u23376 \u25918 \u20837 \u26825 \u34955 \u65292 \u40670 \u25802 \u27700 \u30406 \u25619 \u27927  15 \u27425 \u65281 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'bag'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 15\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u37323 \u25918 \u33184 \u36074 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u28369 \u21205 \u28369 \u40736 \u27169 \u25836 \u25545 \u25619 \u21205 \u20316  10 \u27425 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'hand'\cf0 \strokec5 ], action: \cf9 \strokec9 'slice'\cf0 \strokec5 , target: \cf14 \strokec14 10\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u38748 \u32622 \u32080 \u20941 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u20919 \u34255 \u65292 \u31561 \u24453 \u20957 \u32080 \u25104 \u22602 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'fridge'\cf0 \strokec5 ], action: \cf9 \strokec9 'wait'\cf0 \strokec5 , target: \cf14 \strokec14 2000\cf0 \strokec5  \}\cb1 \
+\cb3                 ],\cb1 \
+\cb3                 \cf9 \strokec9 'wa-gashi'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u31721 \u28670 \u35910 \u27801 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u28670 \u32178 \u23559 \u35910 \u27801 \u22739 \u36942 \u32048 \u23380 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'sieve'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 6\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u32048 \u32251 \u22609 \u24418 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u28369 \u21205 \u19977 \u35282 \u26834 \u38613 \u29730 \u20986 \u33457 \u29923 \u32011 \u36335 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'stick'\cf0 \strokec5 ], action: \cf9 \strokec9 'slice'\cf0 \strokec5 , target: \cf14 \strokec14 8\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u40670 \u30555 \u20462 \u39166 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u23436 \u25104 \u26368 \u24460 \u35037 \u39166 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'tweezer'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 1\cf0 \strokec5  \}\cb1 \
+\cb3                 ],\cb1 \
+\cb3                 \cf9 \strokec9 'xian-cao'\cf0 \strokec5 : [\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u29100 \u29038 \u20185 \u33609 \u20094 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u22823 \u37707 \u25345 \u32396 \u21152 \u29105  6 \u27425 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'fire'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 6\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u36942 \u28670 \u27544 \u28195 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u28369 \u21205 \u28670 \u34955 \u20998 \u38626 \u28271 \u27713 \u33287 \u20094 \u33609 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'filter'\cf0 \strokec5 ], action: \cf9 \strokec9 'slice'\cf0 \strokec5 , target: \cf14 \strokec14 8\cf0 \strokec5  \},\cb1 \
+\cb3                     \{ title: \cf9 \strokec9 '\uc0\u21246 \u33441 \u25104 \u20941 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u21152 \u20837 \u28593 \u31881 \u27700 \u25898 \u25292 \u12290 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'spoon'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 4\cf0 \strokec5  \}\cb1 \
+\cb3                 ]\cb1 \
+\cb3             \};\cb1 \
+\cb3             \cf13 \strokec13 return\cf0 \strokec5  recipes[id] || [\{ title: \cf9 \strokec9 '\uc0\u35069 \u20316 \u26009 \u29702 '\cf0 \strokec5 , hint: \cf9 \strokec9 '\uc0\u40670 \u25802 \u23436 \u25104 '\cf0 \strokec5 , tools: [\cf9 \strokec9 'hand'\cf0 \strokec5 ], action: \cf9 \strokec9 'click'\cf0 \strokec5 , target: \cf14 \strokec14 1\cf0 \strokec5  \}];\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  setupTools(tools) \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  container = document.getElementById(\cf9 \strokec9 'interactive-tools'\cf0 \strokec5 );\cb1 \
+\cb3             container.innerHTML = \cf9 \strokec9 ''\cf0 \strokec5 ;\cb1 \
+\cb3             tools.forEach(t => \{\cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  btn = document.createElement(\cf9 \strokec9 'button'\cf0 \strokec5 );\cb1 \
+\cb3                 btn.className = \cf9 \strokec9 'bg-white border-4 border-black p-4 text-3xl hover:bg-yellow-100 comic-shadow'\cf0 \strokec5 ;\cb1 \
+\cb3                 btn.innerText = getToolIcon(t);\cb1 \
+\cb3                 btn.onclick = () => handleToolClick(t);\cb1 \
+\cb3                 container.appendChild(btn);\cb1 \
+\cb3             \});\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  getToolIcon(tool) \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  map = \{ \cf9 \strokec9 'knife'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55357 \u56618 '\cf0 \strokec5 , \cf9 \strokec9 'mixer'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55356 \u57088 '\cf0 \strokec5 , \cf9 \strokec9 'fire'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55357 \u56613 '\cf0 \strokec5 , \cf9 \strokec9 'water'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55357 \u56487 '\cf0 \strokec5 , \cf9 \strokec9 'spatula'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55356 \u57203 '\cf0 \strokec5 , \cf9 \strokec9 'lid'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55358 \u56664 '\cf0 \strokec5 , \cf9 \strokec9 'sugar'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55358 \u56770 '\cf0 \strokec5 , \cf9 \strokec9 'spoon'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55358 \u56644 '\cf0 \strokec5 , \cf9 \strokec9 'tea-bag'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u9749 '\cf0 \strokec5 , \cf9 \strokec9 'sun'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u9728 \u65039 '\cf0 \strokec5 , \cf9 \strokec9 'hand'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55358 \u56602 '\cf0 \strokec5 , \cf9 \strokec9 'hammer'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55357 \u56616 '\cf0 \strokec5 , \cf9 \strokec9 'stone-mill'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u9881 \u65039 '\cf0 \strokec5 , \cf9 \strokec9 'steamer'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55357 \u56488 '\cf0 \strokec5 , \cf9 \strokec9 'sieve'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55357 \u56696 \u65039 '\cf0 \strokec5 , \cf9 \strokec9 'wine'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55356 \u57214 '\cf0 \strokec5 , \cf9 \strokec9 'whisk'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55356 \u57130 \u65039 '\cf0 \strokec5 , \cf9 \strokec9 'oven'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u9202 \u65039 '\cf0 \strokec5 , \cf9 \strokec9 'bag'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55358 \u56804 '\cf0 \strokec5 , \cf9 \strokec9 'fridge'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u10052 \u65039 '\cf0 \strokec5 , \cf9 \strokec9 'stick'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55358 \u56674 '\cf0 \strokec5 , \cf9 \strokec9 'tweezer'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u9986 \u65039 '\cf0 \strokec5 , \cf9 \strokec9 'filter'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u55358 \u56826 '\cf0 \strokec5 , \cf9 \strokec9 'wait-timer'\cf0 \strokec5 : \cf9 \strokec9 '\uc0\u9203 '\cf0 \strokec5  \};\cb1 \
+\cb3             \cf13 \strokec13 return\cf0 \strokec5  map[tool] || \cf9 \strokec9 '\uc0\u9874 \u65039 '\cf0 \strokec5 ;\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  handleToolClick(tool) \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  steps = getRecipeSteps(currentFood.recipeId);\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  current = steps[recipeState.step];\cb1 \
+\cb3             \cb1 \
+\cb3             \cf13 \strokec13 if\cf0 \strokec5  (current.action === \cf9 \strokec9 'click'\cf0 \strokec5 ) \{\cb1 \
+\cb3                 recipeState.count++;\cb1 \
+\cb3                 triggerFX(\cf9 \strokec9 '\uc0\u21481 \u65281 '\cf0 \strokec5 , \cf14 \strokec14 450\cf0 \strokec5 , \cf14 \strokec14 325\cf0 \strokec5 );\cb1 \
+\cb3                 checkStepProgress(current.target);\cb1 \
+\cb3             \} \cf13 \strokec13 else\cf0 \strokec5  \cf13 \strokec13 if\cf0 \strokec5  (current.action === \cf9 \strokec9 'wait'\cf0 \strokec5  || current.action === \cf9 \strokec9 'timer'\cf0 \strokec5 ) \{\cb1 \
+\cb3                 startTimer(current.target);\cb1 \
+\cb3             \}\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  startTimer(duration) \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  barCont = document.getElementById(\cf9 \strokec9 'progress-bar-container'\cf0 \strokec5 );\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  bar = document.getElementById(\cf9 \strokec9 'progress-bar'\cf0 \strokec5 );\cb1 \
+\cb3             barCont.classList.remove(\cf9 \strokec9 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3             \cf13 \strokec13 let\cf0 \strokec5  start = \cf13 \strokec13 null\cf0 \strokec5 ;\cb1 \
+\cb3             \cb1 \
+\cb3             \cf13 \strokec13 function\cf0 \strokec5  animate(timestamp) \{\cb1 \
+\cb3                 \cf13 \strokec13 if\cf0 \strokec5 (!start) start = timestamp;\cb1 \
+\cb3                 \cf13 \strokec13 let\cf0 \strokec5  progress = timestamp - start;\cb1 \
+\cb3                 \cf13 \strokec13 let\cf0 \strokec5  perc = \cf15 \strokec15 Math\cf0 \strokec5 .min(progress / duration * \cf14 \strokec14 100\cf0 \strokec5 , \cf14 \strokec14 100\cf0 \strokec5 );\cb1 \
+\cb3                 bar.style.width = perc + \cf9 \strokec9 '%'\cf0 \strokec5 ;\cb1 \
+\cb3                 \cb1 \
+\cb3                 \cf13 \strokec13 if\cf0 \strokec5 (progress < duration) \{\cb1 \
+\cb3                     requestAnimationFrame(animate);\cb1 \
+\cb3                 \} \cf13 \strokec13 else\cf0 \strokec5  \{\cb1 \
+\cb3                     barCont.classList.add(\cf9 \strokec9 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3                     recipeState.count = \cf14 \strokec14 1\cf0 \strokec5 ;\cb1 \
+\cb3                     checkStepProgress(\cf14 \strokec14 1\cf0 \strokec5 );\cb1 \
+\cb3                 \}\cb1 \
+\cb3             \}\cb1 \
+\cb3             requestAnimationFrame(animate);\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  checkStepProgress(target) \{\cb1 \
+\cb3             \cf13 \strokec13 if\cf0 \strokec5  (recipeState.count >= target) \{\cb1 \
+\cb3                 recipeState.step++;\cb1 \
+\cb3                 recipeState.count = \cf14 \strokec14 0\cf0 \strokec5 ;\cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  steps = getRecipeSteps(currentFood.recipeId);\cb1 \
+\cb3                 \cf13 \strokec13 if\cf0 \strokec5  (recipeState.step < steps.length) \{\cb1 \
+\cb3                     runRecipeStep();\cb1 \
+\cb3                 \} \cf13 \strokec13 else\cf0 \strokec5  \{\cb1 \
+\cb3                     finishRecipe();\cb1 \
+\cb3                 \}\cb1 \
+\cb3             \}\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  finishRecipe() \{\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'recipe-step-box'\cf0 \strokec5 ).innerText = \cf9 \strokec9 "\uc0\u55356 \u57225  \u26009 \u29702 \u23436 \u25104 \u65281 "\cf0 \strokec5 ;\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'recipe-hint'\cf0 \strokec5 ).innerText = \cf9 \strokec9 "\uc0\u36889 \u20221 \u32654 \u21619 \u24050 \u25910 \u37636 \u26044 \u34255 \u26360 \u38307 \u20013 \u12290 "\cf0 \strokec5 ;\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'interactive-tools'\cf0 \strokec5 ).innerHTML = \cf9 \strokec9 ''\cf0 \strokec5 ;\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'finish-btn'\cf0 \strokec5 ).classList.remove(\cf9 \strokec9 'hidden'\cf0 \strokec5 );\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'finish-btn'\cf0 \strokec5 ).onclick = () => \{\cb1 \
+\cb3                 currentFood.collected = \cf13 \strokec13 true\cf0 \strokec5 ;\cb1 \
+\cb3                 changeScene(\cf9 \strokec9 'shelf'\cf0 \strokec5 );\cb1 \
+\cb3             \};\cb1 \
+\cb3             drawFinishedDish();\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf12 \strokec12 // --- \uc0\u32362 \u22294 \u37007 \u36655  ---\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  drawKitchenBase() \{\cb1 \
+\cb3             ctx.clearRect(\cf14 \strokec14 0\cf0 \strokec5 , \cf14 \strokec14 0\cf0 \strokec5 , canvas.width, canvas.height);\cb1 \
+\cb3             \cf12 \strokec12 // \uc0\u30059 \u26684 \u32218 \u32972 \u26223 \cf0 \cb1 \strokec5 \
+\cb3             ctx.strokeStyle = \cf9 \strokec9 '#f0f0f0'\cf0 \strokec5 ;\cb1 \
+\cb3             ctx.lineWidth = \cf14 \strokec14 1\cf0 \strokec5 ;\cb1 \
+\cb3             \cf13 \strokec13 for\cf0 \strokec5 (\cf13 \strokec13 let\cf0 \strokec5  i=\cf14 \strokec14 0\cf0 \strokec5 ; i<canvas.width; i+=\cf14 \strokec14 40\cf0 \strokec5 ) \{ ctx.beginPath(); ctx.moveTo(i,\cf14 \strokec14 0\cf0 \strokec5 ); ctx.lineTo(i,canvas.height); ctx.stroke(); \}\cb1 \
+\cb3             \cf13 \strokec13 for\cf0 \strokec5 (\cf13 \strokec13 let\cf0 \strokec5  i=\cf14 \strokec14 0\cf0 \strokec5 ; i<canvas.height; i+=\cf14 \strokec14 40\cf0 \strokec5 ) \{ ctx.beginPath(); ctx.moveTo(\cf14 \strokec14 0\cf0 \strokec5 ,i); ctx.lineTo(canvas.width,i); ctx.stroke(); \}\cb1 \
+\cb3             \cb1 \
+\cb3             \cf12 \strokec12 // \uc0\u30059 \u20013 \u22830 \u24037 \u20316 \u27311 \u29289 \u20214 \u65288 \u20381 \u19981 \u21516 \u39135 \u29289 \u26377 \u31777 \u21934 \u35722 \u24418 \u65289 \cf0 \cb1 \strokec5 \
+\cb3             ctx.save();\cb1 \
+\cb3             ctx.translate(\cf14 \strokec14 450\cf0 \strokec5 , \cf14 \strokec14 325\cf0 \strokec5 );\cb1 \
+\cb3             ctx.lineWidth = \cf14 \strokec14 6\cf0 \strokec5 ;\cb1 \
+\cb3             ctx.strokeStyle = \cf9 \strokec9 '#000'\cf0 \strokec5 ;\cb1 \
+\cb3             ctx.fillStyle = \cf9 \strokec9 '#fff'\cf0 \strokec5 ;\cb1 \
+\cb3             \cb1 \
+\cb3             \cf12 \strokec12 // \uc0\u22522 \u30990 \u22291 \u30436 \cf0 \cb1 \strokec5 \
+\cb3             ctx.beginPath();\cb1 \
+\cb3             ctx.ellipse(\cf14 \strokec14 0\cf0 \strokec5 , \cf14 \strokec14 50\cf0 \strokec5 , \cf14 \strokec14 200\cf0 \strokec5 , \cf14 \strokec14 100\cf0 \strokec5 , \cf14 \strokec14 0\cf0 \strokec5 , \cf14 \strokec14 0\cf0 \strokec5 , \cf15 \strokec15 Math\cf0 \strokec5 .\cf15 \strokec15 PI\cf0 \strokec5  * \cf14 \strokec14 2\cf0 \strokec5 );\cb1 \
+\cb3             ctx.fill();\cb1 \
+\cb3             ctx.stroke();\cb1 \
+\
+\cb3             \cf12 \strokec12 // \uc0\u39135 \u29289 \u22294 \u27161 \u28210 \u26579 \cf0 \cb1 \strokec5 \
+\cb3             ctx.font = \cf9 \strokec9 '80px Arial'\cf0 \strokec5 ;\cb1 \
+\cb3             ctx.textAlign = \cf9 \strokec9 'center'\cf0 \strokec5 ;\cb1 \
+\cb3             ctx.fillText(currentFood.icon, \cf14 \strokec14 0\cf0 \strokec5 , \cf14 \strokec14 20\cf0 \strokec5 );\cb1 \
+\cb3             \cb1 \
+\cb3             ctx.restore();\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  drawFinishedDish() \{\cb1 \
+\cb3             ctx.save();\cb1 \
+\cb3             ctx.fillStyle = \cf9 \strokec9 'rgba(255,255,255,0.8)'\cf0 \strokec5 ;\cb1 \
+\cb3             ctx.fillRect(\cf14 \strokec14 0\cf0 \strokec5 ,\cf14 \strokec14 0\cf0 \strokec5 ,\cf14 \strokec14 900\cf0 \strokec5 ,\cf14 \strokec14 650\cf0 \strokec5 );\cb1 \
+\cb3             ctx.translate(\cf14 \strokec14 450\cf0 \strokec5 , \cf14 \strokec14 325\cf0 \strokec5 );\cb1 \
+\cb3             ctx.scale(\cf14 \strokec14 1.5\cf0 \strokec5 , \cf14 \strokec14 1.5\cf0 \strokec5 );\cb1 \
+\cb3             ctx.shadowBlur = \cf14 \strokec14 20\cf0 \strokec5 ;\cb1 \
+\cb3             ctx.shadowColor = \cf9 \strokec9 'gold'\cf0 \strokec5 ;\cb1 \
+\cb3             ctx.font = \cf9 \strokec9 '100px Arial'\cf0 \strokec5 ;\cb1 \
+\cb3             ctx.fillText(currentFood.icon, \cf14 \strokec14 0\cf0 \strokec5 , \cf14 \strokec14 30\cf0 \strokec5 );\cb1 \
+\cb3             ctx.restore();\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         canvas.onmousedown = () => isDrawing = \cf13 \strokec13 true\cf0 \strokec5 ;\cb1 \
+\cb3         canvas.onmouseup = () => isDrawing = \cf13 \strokec13 false\cf0 \strokec5 ;\cb1 \
+\cb3         canvas.onmousemove = (e) => \{\cb1 \
+\cb3             \cf13 \strokec13 if\cf0 \strokec5 (!isDrawing) \cf13 \strokec13 return\cf0 \strokec5 ;\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  steps = getRecipeSteps(currentFood.recipeId);\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  current = steps[recipeState.step];\cb1 \
+\cb3             \cf13 \strokec13 if\cf0 \strokec5 (current && current.action === \cf9 \strokec9 'slice'\cf0 \strokec5 ) \{\cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  rect = canvas.getBoundingClientRect();\cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  x = e.clientX - rect.left;\cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  y = e.clientY - rect.top;\cb1 \
+\cb3                 \cb1 \
+\cb3                 \cf12 \strokec12 // \uc0\u31777 \u26131 \u36335 \u24465 \u20999 \u21106 \u20597 \u28204 \cf0 \cb1 \strokec5 \
+\cb3                 \cf13 \strokec13 if\cf0 \strokec5 (x > \cf14 \strokec14 350\cf0 \strokec5  && x < \cf14 \strokec14 550\cf0 \strokec5  && y > \cf14 \strokec14 250\cf0 \strokec5  && y < \cf14 \strokec14 400\cf0 \strokec5 ) \{\cb1 \
+\cb3                     recipeState.count += \cf14 \strokec14 0.1\cf0 \strokec5 ;\cb1 \
+\cb3                     \cf13 \strokec13 if\cf0 \strokec5 (\cf15 \strokec15 Math\cf0 \strokec5 .floor(recipeState.count) > recipeState.lastCount || \cf14 \strokec14 0\cf0 \strokec5 ) \{\cb1 \
+\cb3                         triggerFX(\cf9 \strokec9 '\uc0\u21808 \u65281 '\cf0 \strokec5 , x, y);\cb1 \
+\cb3                         recipeState.lastCount = \cf15 \strokec15 Math\cf0 \strokec5 .floor(recipeState.count);\cb1 \
+\cb3                     \}\cb1 \
+\cb3                     checkStepProgress(current.target);\cb1 \
+\cb3                 \}\cb1 \
+\cb3             \}\cb1 \
+\cb3         \};\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  triggerFX(text, x, y) \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  container = document.getElementById(\cf9 \strokec9 'fx-layer'\cf0 \strokec5 );\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  el = document.createElement(\cf9 \strokec9 'div'\cf0 \strokec5 );\cb1 \
+\cb3             el.className = \cf9 \strokec9 'onomatopeia'\cf0 \strokec5 ;\cb1 \
+\cb3             el.innerText = text;\cb1 \
+\cb3             el.style.left = \cf9 \strokec9 `\cf0 \strokec5 $\{x\}\cf9 \strokec9 px`\cf0 \strokec5 ;\cb1 \
+\cb3             el.style.top = \cf9 \strokec9 `\cf0 \strokec5 $\{y\}\cf9 \strokec9 px`\cf0 \strokec5 ;\cb1 \
+\cb3             container.appendChild(el);\cb1 \
+\cb3             setTimeout(() => el.remove(), \cf14 \strokec14 800\cf0 \strokec5 );\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf12 \strokec12 // --- Modal \uc0\u31649 \u29702  ---\cf0 \cb1 \strokec5 \
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  openModal(comicId) \{\cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  comic = comicData.find(c => c.id === comicId);\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'modal-title'\cf0 \strokec5 ).innerText = comic.title;\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'modal-author'\cf0 \strokec5 ).innerText = \cf9 \strokec9 `\uc0\u21407 \u33879 \u20316 \u32773 \u65306 \cf0 \strokec5 $\{comic.author\}\cf9 \strokec9 `\cf0 \strokec5 ;\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'modal-desc'\cf0 \strokec5 ).innerText = comic.desc;\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'modal-link'\cf0 \strokec5 ).href = comic.link;\cb1 \
+\cb3             \cb1 \
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  cover = document.getElementById(\cf9 \strokec9 'modal-cover'\cf0 \strokec5 );\cb1 \
+\cb3             cover.style.backgroundColor = comic.color;\cb1 \
+\cb3             cover.innerText = comic.foods[\cf14 \strokec14 0\cf0 \strokec5 ].icon;\cb1 \
+\
+\cb3             \cf13 \strokec13 const\cf0 \strokec5  foodGrid = document.getElementById(\cf9 \strokec9 'modal-foods'\cf0 \strokec5 );\cb1 \
+\cb3             foodGrid.innerHTML = \cf9 \strokec9 ''\cf0 \strokec5 ;\cb1 \
+\cb3             comic.foods.forEach(f => \{\cb1 \
+\cb3                 \cf13 \strokec13 const\cf0 \strokec5  badge = document.createElement(\cf9 \strokec9 'div'\cf0 \strokec5 );\cb1 \
+\cb3                 badge.className = \cf9 \strokec9 `w-12 h-12 flex items-center justify-center border-2 border-black text-2xl \cf0 \strokec5 $\{f.collected ? \cf9 \strokec9 'bg-white'\cf0 \strokec5  : \cf9 \strokec9 'bg-gray-200 opacity-20'\cf0 \strokec5 \}\cf9 \strokec9 `\cf0 \strokec5 ;\cb1 \
+\cb3                 badge.title = f.name;\cb1 \
+\cb3                 badge.innerText = f.icon;\cb1 \
+\cb3                 foodGrid.appendChild(badge);\cb1 \
+\cb3             \});\cb1 \
+\
+\cb3             toggleModal(\cf13 \strokec13 true\cf0 \strokec5 );\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf13 \strokec13 function\cf0 \strokec5  toggleModal(show) \{\cb1 \
+\cb3             document.getElementById(\cf9 \strokec9 'modal'\cf0 \strokec5 ).classList.toggle(\cf9 \strokec9 'hidden'\cf0 \strokec5 , !show);\cb1 \
+\cb3         \}\cb1 \
+\
+\cb3         \cf12 \strokec12 // \uc0\u21021 \u22987 \u21270 \cf0 \cb1 \strokec5 \
+\cb3         window.onload = () => \{\cb1 \
+\cb3             renderIntro();\cb1 \
+\cb3             renderShelf();\cb1 \
+\cb3         \};\cb1 \
+\cb3     \cf6 \strokec6 </\cf7 \strokec7 script\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 body\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 </\cf7 \strokec7 html\cf6 \strokec6 >\cf0 \cb1 \strokec5 \
+}
